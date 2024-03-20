@@ -1,0 +1,28 @@
+nav > ul{
+    display: grid; 
+    height:100%; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    margin:0; 
+    padding:0; 
+}
+li{
+    text-align: center; 
+    list-style: none; 
+    display: grid; 
+    justify-content: stretch; 
+    border: 1px solid black; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 0px;
+}
+@media only screen and (min-width: 768px){
+    li{
+        border-radius: 10px;
+    }
+    ul{
+        gap: 25px;
+    }
+}
+img{
+    max-width: 100%;
+}
