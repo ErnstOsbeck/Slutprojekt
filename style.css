@@ -15,6 +15,15 @@ li{
     margin-bottom: 15px; 
     border-radius: 0px;
 }
+img{
+    max-width: 100%;
+}
+#introduktion{
+    border: 1px solid black;
+}
+h2{
+    text-align: center;
+}
 @media only screen and (min-width: 768px){
     li{
         border-radius: 10px;
@@ -22,7 +31,12 @@ li{
     ul{
         gap: 25px;
     }
-}
-img{
-    max-width: 100%;
+    img{
+        max-width: 80%;
+        padding: 20px;
+    }
+    #introduktion{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
