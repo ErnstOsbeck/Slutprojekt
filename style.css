@@ -1,3 +1,6 @@
+header{
+    background-color: grey;
+}
 nav > ul{
     display: grid; 
     height:100%; 
@@ -5,7 +8,7 @@ nav > ul{
     margin:0; 
     padding:0; 
 }
-li{
+nav > ul > li{
     text-align: center; 
     list-style: none; 
     display: grid; 
@@ -21,11 +24,35 @@ img{
 #introduktion{
     border: 1px solid black;
 }
+#introduktion > img{
+    border: 1px solid black;
+}
+#introduktion > p{
+    margin: 5px;
+}
 h2{
     text-align: center;
 }
+#info{
+    border: 1px solid black;
+}
+#info > section{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+#info > section > a{
+     width: fit-content;
+    list-style: none; 
+    display: grid; 
+    justify-content: stretch; 
+    border: 1px solid black; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 5px;
+}
 @media only screen and (min-width: 768px){
-    li{
+    nav > ul > li{
         border-radius: 10px;
     }
     ul{
@@ -38,5 +65,9 @@ h2{
     #introduktion{
         display: grid;
         grid-template-columns: auto auto;
+    }
+    #info{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
