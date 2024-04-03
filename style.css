@@ -70,4 +70,14 @@ h2{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    #teknik > .wrapper > main > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    #motor, #aero, #utanför{
+        border: 1px solid black;
+        padding: 5px;
+        margin: 5px;
+    }
 }
