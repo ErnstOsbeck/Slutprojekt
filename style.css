@@ -113,23 +113,23 @@ h3{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto auto auto;
     }
-    #v12{
+    #v12, #senna{
         grid-column: 2;
     }
-    #V10{
+    #V10, #Schumacher{
         grid-column: 2;
     }
-    #v10{
+    #v10, #schumacher{
         grid-column: 1;
         grid-row: 2;
     }
-    #v8{
+    #v8, #vettel{
         grid-column: 2;
     }
-    #V6{
+    #V6, #Norris{
         grid-column: 2;
     }
-    #v6{
+    #v6, #norris{
         grid-column: 1;
         grid-row: 4;
     }
