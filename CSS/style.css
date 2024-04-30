@@ -104,6 +104,13 @@ iframe{
     width: 95vw;
     height: 53vw;
 }
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+form{
+    text-align: center;   
+}
 @media only screen and (min-width: 768px){
     nav > ul > li > a{
         border-radius: 5px;
@@ -184,8 +191,8 @@ iframe{
         gap: 10px;
     }
     iframe{
-        width: 100vw;
+        width: 99vw;
         height: 56vw;
-        border: 0px;
+        border: 10px;
     }
 }
