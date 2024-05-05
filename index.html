@@ -1,27 +1,35 @@
-<!DOCTYPE html>
-<html lang="sv">
+<!DOCTYPE html> <!--deklarerar vilket kodspråk som sidan är skriven i-->
+<html lang="sv"> <!--deklarerar vilket språk sidan ska vara på-->
 	<head>
 		<title>Startsida</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--definerar fönsterstorleken efter användarens skärm-->
+		<meta charset="utf-8"> <!--deklarerar vilka karaktärer som kan användas på sidan-->
 		<link href="/CSS/style.css" rel="stylesheet">
 	</head>
-	<body>
+	<body> <!--inkluderar allt som visas till användaren-->
 		<div class="wrapper">
-			<header>
+			<header> <!--Det som finns högst upp på sidan, titel navigering etc.-->
 				<h1>Tekniken inom F1</h1>
-				<nav>
-					<ul>
-						<li><a href="index.html">Start</a></li>
-						<li><a href="/HTML/teknik.html">Dagens Teknik</a></li>
-						<li><a href="/HTML/historia.html">Historia</a></li>
-						<li><a href="/HTML/formulär.html">Formulär</a></li>
+				<nav> <!--gör så att man enkelt kan flytta mellan huvudsidorna på sidan-->
+					<ul> <!--en lista med länkar till huvudsidorna på webbplatsen-->
+						<li>
+							<a href="index.html">Start</a>
+						</li>
+						<li>
+							<a href="/HTML/teknik.html">Dagens Teknik</a>
+						</li>
+						<li>
+							<a href="/HTML/historia.html">Historia</a>
+						</li>
+						<li>
+							<a href="/HTML/formulär.html">Formulär</a>
+						</li>
 					</ul>
 				</nav>
 			</header>
 			<main>            
 				<h2>Formel 1</h2>
-					<section id="introduktion">
+					<section id="introduktion"> <!--En introduktion till sidan med bild och text-->
 						<img src="/Media/Startbild.jpg" alt="sketch på en gammal formel 1 bil">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -31,7 +39,7 @@
 					<figure>
 						<img src="/Media/Banner.jpg" alt="F1 bilar i en tunnel">
 					</figure>
-				<section id="info">
+				<section id="info"> <!--tre sektioner med kortare introduktioner om deras respektive sidor med en knapp som leder till dem-->
 					<section>
 						<h3>Dagens Teknik</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
